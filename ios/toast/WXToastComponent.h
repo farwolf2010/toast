@@ -14,7 +14,8 @@
 
 
 @interface WXToastComponent : WXComponent
-
+    
+@property(nonatomic,strong)NSString* color;
     
 @end
 
